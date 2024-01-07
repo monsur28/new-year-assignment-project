@@ -80,7 +80,7 @@ body{
     margin-bottom: 120px;
 }
 
-/* year image styles */
+/* year-party section styles */
 
 .year-image-container{
     width: 100%;
@@ -88,7 +88,9 @@ body{
     background-image: url(/resources/Vectorrr.png);
     border-radius: 16px;
     background-repeat: no-repeat;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
+    justify-items: center;
+    align-items: center;
 }
 
 .year-image-overlay{
@@ -115,7 +117,7 @@ body{
     line-height: 30px;
 }
 
-button{
+.button{
     background: none;
     color: #FFF;
     border: none;
@@ -138,4 +140,91 @@ button{
     margin-top: -350px;
     margin-left: 500px;
     background: transparent;
+}
+
+/* time style section */
+
+.time-container{
+    align-items: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.time-button{
+    border-radius: 8px;
+    background: #F00;
+    color: white;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    border: 0;
+    
+}
+.time-text{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+/* best offer section  */
+
+.best-offer-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.best-offer-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-offer-heading{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.best-offer-parragraph{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.best-offer-image{
+    border-radius: 364px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 15px;
+    margin-right: 140px;
+}
+
+.new-year-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.new-year-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
 }
