@@ -85,7 +85,7 @@ body{
 .year-image-container{
     width: 100%;
     height: 111vh;
-    background-image: url('./resources/Vectorrr.png');
+    background-image: url('/resources/Vectorrr.png');
     border-radius: 16px;
     background-repeat: no-repeat;
     margin-bottom: 80px;
@@ -227,4 +227,94 @@ body{
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+}
+
+/* Holidays Sale section */
+.holiday-container{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.holiday-title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-headline{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holidays-color{
+    color: #F00;
+}
+
+.holiday-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.holiday-image{
+    position: relative;
+    display: inline-block;
+}
+.img1{
+    position: absolute;
+    margin-right: 500px;
+    right: 80px;
+}
+
+.img2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.img3{
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+.img4{
+    padding: -10px;
+    margin-right: 10px;
+}
+
+/* portfolio section style */
+
+.protfolio-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.protfolio-heading{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.protfolio-description{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.protfolio-container{
+    border-radius: 20px solid black 50%;
+    position: absolute;
+    gap:50px;
+    background: lightgray 50% / no-repeat;
+}
+
+.protfolio-container>img:hover {
+    opacity: 0.8;
 }
