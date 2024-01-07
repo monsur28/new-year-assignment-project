@@ -85,7 +85,7 @@ body{
 .year-image-container{
     width: 100%;
     height: 111vh;
-    background-image: url(/resources/Vectorrr.png);
+    background-image: url('./resources/Vectorrr.png');
     border-radius: 16px;
     background-repeat: no-repeat;
     margin-bottom: 80px;
