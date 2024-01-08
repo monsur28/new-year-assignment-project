@@ -475,9 +475,19 @@ body{
 .copyright-section{
     display: flex;
     gap: 700px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .unsubscribe{
     position: absolute;
     right : 100px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
 }
