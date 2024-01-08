@@ -404,26 +404,27 @@ body{
 
 .footer-section{
     margin-top: 100px;
-    width: 1240px;
+    position: absolute;
+    width: 1600px;
     height: 500px;
-    border-radius: 20px;
+    right: -20px;
+    left: -90px;
     background: #070211;
     /* justify-content: center;
     align-items: center; */
 }
 
 .contact-container{
-    margin-top: 120px;
-    /* width: 1100px;
-    height: 609px; */
+    margin-top: 20px;
+    width: 1100px;
     border-radius: 20px;
     color: #FFF;
-    padding-left: 120px;
+    padding-left: 200px;
     padding-top: 120px;
 }
 .contact{
     display: flex;
-    gap: 400px;
+    gap: 450px;
 }
 .address{
     color: #FFF;
@@ -432,6 +433,8 @@ body{
     font-weight: 500;
 }
 .phone{
+    position: absolute;
+    right: 100px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -439,6 +442,9 @@ body{
 }
 
 .website{
+    position: absolute;
+    right: 80px;
+    top: 180px;
     color: #FFF;    
     font-family: Inter;
     font-size: 24px;
@@ -446,8 +452,7 @@ body{
 }
 
 .h{
-    position:  absolute;
-    width: 1050px;
+    width: 1350px;
     height: 1px;
     border: none;
     background: rgba(255, 255, 255, 0.15); #070211;
@@ -456,11 +461,13 @@ body{
 /* social icon styles */
 
 .social-icon{
+    align-items: center;
     text-align: center;
-    padding: 10px;
+    padding-right: 50px;
+    margin-left: 300px;
 }
 .social-icon>img{
-    margin-right: 20px;
+    padding-right: 20px;
 }
 
 /* copyright section */
@@ -470,3 +477,7 @@ body{
     gap: 700px;
 }
 
+.unsubscribe{
+    position: absolute;
+    right : 100px;
+}
