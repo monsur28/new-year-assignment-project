@@ -87,7 +87,7 @@ body{
 /* year-party section styles */
 
 .year-image-container{
-    width: 1220px;
+    width: 1240px;
     background-image: url('../resources/Vectorrr.png');
     border-radius: 16px;
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@ body{
     border-radius: 16px ;
     position: relative;
     left: 1px;
-    top: 2px;
+    top: 0px;
     outline: none;
     margin-bottom: 140px;
 }
@@ -135,9 +135,9 @@ body{
 
 .year-image-text{
     padding-top: 80px;
-    padding-right: 350px;
+    padding-right: 400px;
     padding-bottom: 126px;
-    padding-left: 126px;
+    padding-left: 100px;
 }
 
 .image24{
@@ -168,8 +168,6 @@ body{
     color: white;
     display: inline-flex;
     padding: 16px 32px;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
     font-size: 30px;
     margin-top: 10px;
